@@ -1,0 +1,30 @@
+.ColumnFlex{
+    display: flex;
+    flex-direction: column;
+}
+.Icon{
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+}
+.Card{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    justify-content: space-between;
+    box-shadow: 4px 4px 24px 0px rgb(124, 124, 124);
+}
+.ToLeft{
+    
+    display: flex;
+    justify-content: left;
+}
+.Option{
+    margin-right: 5px;
+    display: flex;
+    justify-content: right;
+}
