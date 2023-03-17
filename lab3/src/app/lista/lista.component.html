@@ -1,0 +1,17 @@
+<h1>piwa</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>TagLine</th>
+        </tr>
+    </thead>
+    <tbody *ngFor="let item of list" (click)="OnBeerSelect(item)">
+        <tr>
+            <td>{{item.name}}</td>
+            <td>{{item.tagline}}</td>
+        </tr>
+    </tbody>
+</table>
+

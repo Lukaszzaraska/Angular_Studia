@@ -1,0 +1,4 @@
+<div class="flex">
+    <app-lista (selectBeer)="OnBeerSelect($event)"></app-lista>
+    <app-details [beer]="selectBeer"  (click)="OnBeerSelect(selectBeer)" ></app-details>
+</div>
